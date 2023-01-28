@@ -14,13 +14,10 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping(path="/api/v1/message")
 public class MessageController {
 
-    private final KafkaProducerService producerService;
+    @Autowired
+    private KafkaProducerService producerService;
 
     private static final Logger logger = LoggerFactory.getLogger(MessageController.class);
-
-    public MessageController(KafkaProducerService producerService) {
-        this.producerService = producerService;
-    }
 
     @PostMapping(path = "/send",produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<?> send (@RequestBody Message message ){
@@ -28,6 +25,7 @@ public class MessageController {
         producerService.sendMessage(message);
         return new ResponseEntity<>(HttpStatus.OK);
     }
+
 
     @PostMapping(path = "/other",produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<?> sendOther (@RequestBody Message message ){

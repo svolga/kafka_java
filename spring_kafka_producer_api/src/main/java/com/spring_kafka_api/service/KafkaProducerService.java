@@ -23,7 +23,8 @@ public class KafkaProducerService {
     @Value("${kafka.topic1}")
     private String topic1;
 
-    @Value("${kafka.topic10}")
+
+    @Value("${kafka.topic2}")
     private String topic10;
 
 

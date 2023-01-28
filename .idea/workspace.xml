@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38933e0c-6e44-4639-a043-ffd9a337bd41" name="Default Changelist" comment="" />
+    <list default="true" id="38933e0c-6e44-4639-a043-ffd9a337bd41" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_kafka_producer_api/src/main/java/com/spring_kafka_api/controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_kafka_producer_api/src/main/java/com/spring_kafka_api/controller/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_kafka_producer_api/src/main/java/com/spring_kafka_api/service/KafkaProducerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_kafka_producer_api/src/main/java/com/spring_kafka_api/service/KafkaProducerService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +18,9 @@
   </component>
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2KtZH9vDquKUJqNSADb8qXqxcBM" />
   <component name="ProjectViewState">
@@ -25,6 +34,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
@@ -43,7 +53,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringKafkaConsumerApiApplication">
+  <component name="RunManager" selected="Spring Boot.SpringKafkaProducerApiApplication">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -51,19 +61,6 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="spring_kafka_producer_api" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="spring_kafka_producer_api" />
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -96,6 +93,8 @@
       <workItem from="1674843151068" duration="8225000" />
       <workItem from="1674876853297" duration="644000" />
       <workItem from="1674877645451" duration="6762000" />
+      <workItem from="1674900518378" duration="518000" />
+      <workItem from="1674901179738" duration="3847000" />
     </task>
     <servers />
   </component>
@@ -107,7 +106,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/spring_kafka_producer_api/src/main/java/com/spring_kafka_api/service/KafkaProducerService.java</url>
-          <line>29</line>
+          <line>30</line>
           <properties class="com.spring_kafka_api.service.KafkaProducerService" method="sendMessage">
             <option name="EMULATED" value="true" />
           </properties>

@@ -54,7 +54,7 @@ https://kafka-school.ru/blogs/kafka-groups/
 
 **Список групп консьюмеров:**
 
-kafka-consumer-groups --bootstrap-server localhost:9092
+kafka-consumer-groups --bootstrap-server localhost:9092 --list
 
 Описание группы:
 kafka-consumer-groups --bootstrap-server localhost:9092 --describe --group testGroup01
@@ -68,10 +68,12 @@ https://docs.docker.com/engine/reference/commandline/compose_run/
 
 
 
-
 Ссылка на git проекта:
 
 
+Маппинг из контейнера на диск:
+volumes:
+- ./data:/var/lib/kafka/data
 
 
 
